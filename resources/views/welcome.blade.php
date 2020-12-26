@@ -3,11 +3,20 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Aura Scan</title>
-
+        <title> 
+            @if (isset($title)) 
+                {{ $title ?? '' }} | 
+            @endif 
+            Aura Scan
+        </title>
+        <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     </head>
-    <body class="">
-       Aura Scan
+    <body>
+        <div class="nav">
+            Teste
+        </div>
+        <div class="main">
+            <h1>Aura Scan</h1>
+        </div>
     </body>
 </html>
