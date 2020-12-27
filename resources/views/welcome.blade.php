@@ -29,7 +29,16 @@
         </div>
 
         <header>
-            Bem-cindo
+            <div class="container-center-header">
+                <img src="{{ asset('img/icons/black/logo.png') }}" alt="Aura Scan" width="200px">
+            </div>
+            <div class="container-center-header">
+                <a href="#" class="btn-header boder-purple">Sobre</a>
+                <a href="#" class="btn-header boder-purple">Contato</a>
+                <a href="#" class="btn-header boder-purple">Sobre</a>
+                <a href="#" class="btn-header boder-purple">Contato</a>
+                <a href="#" class="btn-header boder-purple">Sobre</a>
+            </div>
         </header>
         
         <div class="main">

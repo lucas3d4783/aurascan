@@ -23,13 +23,46 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; 
-    height: 300px;
+    height: auto;
     width: 100%;
     background: #880301c1;
     color: white;
     z-index: 1000;
-    padding-top: 60px;
+    padding: 30px;
 
+}
+
+.container-center-header {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.container-center-header img{
+    width: 200px;
+    margin-top: 90px;
+}
+
+.btn-header {
+    display: inline-block;
+    text-decoration: none;
+    color: #9400ff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-justify: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.btn-header:hover {
+    color:white;
+    background-color:#9400ff;
 }
 
 .nav {
