@@ -33,11 +33,15 @@
                 <img src="{{ asset('img/icons/black/logo.png') }}" alt="Aura Scan" width="200px">
             </div>
             <div class="container-center-header">
-                <a href="#" class="btn-header boder-purple">Sobre</a>
-                <a href="#" class="btn-header boder-purple">Contato</a>
-                <a href="#" class="btn-header boder-purple">Sobre</a>
-                <a href="#" class="btn-header boder-purple">Contato</a>
-                <a href="#" class="btn-header boder-purple">Sobre</a>
+                <a href="#" class="btn-header boder-purple">Discord</a>
+                <a href="#" class="btn-header boder-purple">Telegram</a>
+                <a href="#" class="btn-header boder-purple">Facebook</a>
+            </div>
+            <div class="container-center-header">     
+                <div class="divBusca">
+                    <input type="text" class="txtBusca" placeholder="O que você deseja ler?"/>
+                    <img src="{{ asset('img/icons/white/search.png') }}" id="btnBusca" alt="Buscar"/>
+                </div>
             </div>
         </header>
         
