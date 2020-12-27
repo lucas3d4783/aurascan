@@ -14,7 +14,7 @@ body {
     position: relative;
     align-self: center;
     align-content: center;
-    background-color: chartreuse;
+    background-color: red;
     padding: 10px;
     width: 80%;
     height: auto;
@@ -27,7 +27,7 @@ body {
     padding: 10px;
     width: 100%;
     height: auto;
-    background-color: chocolate;
+    background-color: red;
     color: white;
 }
 
