@@ -46,7 +46,69 @@
         </header>
         
         <div class="main">
-            <h1>Aura Scan</h1>
+            <div class="container-main">
+                <div class="item-container-main">
+                    <img src="{{ asset('img/2.jpg') }}" alt="foto"/>
+                    Manga 1
+                </div>
+                <div class="item-container-main">
+                    <img src="{{ asset('img/2.jpg') }}" alt="foto"/>
+                    Manga 1
+                </div>
+                <div class="item-container-main">
+                    <img src="{{ asset('img/2.jpg') }}" alt="foto"/>
+                    Manga 1
+                </div>
+                <div class="item-container-main">
+                    <img src="{{ asset('img/2.jpg') }}" alt="foto"/>
+                    Manga 1
+                </div>
+                <div class="item-container-main">
+                    <img src="{{ asset('img/2.jpg') }}" alt="foto"/>
+                    Manga 1
+                </div>
+                <div class="item-container-main">
+                    <img src="{{ asset('img/2.jpg') }}" alt="foto"/>
+                    Manga 1
+                </div>
+                <div class="item-container-main">
+                    <img src="{{ asset('img/2.jpg') }}" alt="foto"/>
+                    Manga 1
+                </div>
+                <div class="item-container-main">
+                    <img src="{{ asset('img/2.jpg') }}" alt="foto"/>
+                    Manga 1
+                </div>
+                <div class="item-container-main">
+                    <img src="{{ asset('img/2.jpg') }}" alt="foto"/>
+                    Manga 1
+                </div>
+                <div class="item-container-main">
+                    <img src="{{ asset('img/2.jpg') }}" alt="foto"/>
+                    Manga 1
+                </div>
+                <div class="item-container-main">
+                    <img src="{{ asset('img/2.jpg') }}" alt="foto"/>
+                    Manga 1
+                </div>
+                <div class="item-container-main">
+                    <img src="{{ asset('img/2.jpg') }}" alt="foto"/>
+                    Manga 1
+                </div>
+                <div class="item-container-main">
+                    <img src="{{ asset('img/2.jpg') }}" alt="foto"/>
+                    Manga 1
+                </div>
+                <div class="item-container-main">
+                    <img src="{{ asset('img/2.jpg') }}" alt="foto"/>
+                    Manga 1
+                </div>
+                <div class="item-container-main">
+                    <img src="{{ asset('img/2.jpg') }}" alt="foto"/>
+                    Manga 1
+                </div>
+                
+            </div>
         </div>
 
         <footer>

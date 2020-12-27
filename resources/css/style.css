@@ -98,7 +98,6 @@ header {
 .container-start-nav {
     display: flex;
     justify-content: flex-start;
-    padding: 5px;
     text-align: center;
     align-items: center;
 
@@ -107,7 +106,6 @@ header {
 .container-end-nav {
     display: flex;
     justify-content: flex-end;
-    padding: 5px;
     align-items: center;
 }
 
@@ -121,8 +119,8 @@ header {
     margin-right: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     width: auto;
     text-align: center;
 }
@@ -133,15 +131,43 @@ header {
 }
 
 .main {
-    position: relative;
+    display: flex;
+    flex-wrap: wrap; 
     align-self: center;
     align-content: center;
     background-color: rgba(0, 0, 0, 0.9);
     color: white;
     padding: 10px;
     width: 80%;
-    height: 100%;
+    height: auto;
     text-align: center;
+}
+
+.container-main {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    color: white;
+}
+
+.item-container-main{
+    width: 250px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.item-container-main img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 
 footer {
@@ -151,7 +177,7 @@ footer {
     width: 100%;
     color: white;
     background: rgb(6,47,79);
-    padding: 5px;
+    padding: 10px;
 }
 
 
