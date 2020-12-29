@@ -208,6 +208,23 @@ footer {
     width: 450px;
 }
 
+@media (max-width: 700px) {
+    .divBusca{
+        width: 100%;
+    }
+    
+    .divBusca img{
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
+    }
+    
+    
+    .txtBusca{
+        width: 85%;
+    }
+}
+
 /*
 Black: #000000
 Ink: #062f4f
