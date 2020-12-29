@@ -14,7 +14,7 @@ body {
     background-image: url("/img/icons/logo.png");
     background-repeat: repeat;
     background-size: 60px;
-    background-color: rgba(0, 0, 0, 0.815);
+    background-color: rgba(0, 34, 60, 0.7);
     height: 100%;
     width: 100%;
 }
@@ -25,7 +25,7 @@ header {
     flex-wrap: wrap; 
     height: auto;
     width: 100%;
-    background: #880301c1;
+    background: #880301e4;
     color: white;
     z-index: 1000;
     padding: 30px;
@@ -45,7 +45,7 @@ header {
 
 .container-center-header img{
     width: 200px;
-    margin-top: 90px;
+    margin-top: 75px;
 }
 
 .btn-header {
@@ -135,7 +135,7 @@ header {
     flex-wrap: wrap; 
     align-self: center;
     align-content: center;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.950);
     color: white;
     padding: 10px;
     width: 80%;
